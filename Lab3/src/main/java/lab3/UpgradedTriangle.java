@@ -32,7 +32,7 @@ public class UpgradedTriangle {
         return Type.INVALID;
     }
 
-    public static double getAera(int a, int b, int c) {
+    public static double getArea(int a, int b, int c) {
         if(classify(a, b, c) == Type.INVALID) {
             return 0.0;
         }

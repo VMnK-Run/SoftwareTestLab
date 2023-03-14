@@ -110,44 +110,44 @@
 110:COR:&&(boolean,boolean):==(boolean,boolean):lab3.UpgradedTriangle@classify(int,int,int):30:trian == 3 && b + c > a |==> trian == 3 == b + c > a
 111:STD:<RETURN>:<NO-OP>:lab3.UpgradedTriangle@classify(int,int,int):31:return Type.ISOSCELES; |==> <NO-OP>
 112:EVR:<MEMBER_SELECT(lab3.UpgradedTriangle.Type)>:<DEFAULT>:lab3.UpgradedTriangle@classify(int,int,int):32:Type.INVALID |==> null
-113:LVR:0:POS:lab3.UpgradedTriangle@getAera(int,int,int):37:0.0 |==> 1.0
-114:LVR:0:NEG:lab3.UpgradedTriangle@getAera(int,int,int):37:0.0 |==> -1.0
-115:STD:<RETURN>:<NO-OP>:lab3.UpgradedTriangle@getAera(int,int,int):37:return 0.0; |==> <NO-OP>
-116:AOR:+(int,int):%(int,int):lab3.UpgradedTriangle@getAera(int,int,int):39:a + b |==> a % b
-117:AOR:+(int,int):*(int,int):lab3.UpgradedTriangle@getAera(int,int,int):39:a + b |==> a * b
-118:AOR:+(int,int):-(int,int):lab3.UpgradedTriangle@getAera(int,int,int):39:a + b |==> a - b
-119:AOR:+(int,int):/(int,int):lab3.UpgradedTriangle@getAera(int,int,int):39:a + b |==> a / b
-120:AOR:+(int,int):%(int,int):lab3.UpgradedTriangle@getAera(int,int,int):39:a + b + c |==> (a + b) % c
-121:AOR:+(int,int):*(int,int):lab3.UpgradedTriangle@getAera(int,int,int):39:a + b + c |==> (a + b) * c
-122:AOR:+(int,int):-(int,int):lab3.UpgradedTriangle@getAera(int,int,int):39:a + b + c |==> a + b - c
-123:AOR:+(int,int):/(int,int):lab3.UpgradedTriangle@getAera(int,int,int):39:a + b + c |==> (a + b) / c
-124:LVR:POS:0:lab3.UpgradedTriangle@getAera(int,int,int):39:2.0 |==> 0.0
-125:LVR:POS:NEG:lab3.UpgradedTriangle@getAera(int,int,int):39:2.0 |==> -2.0
-126:AOR:/(double,double):%(double,double):lab3.UpgradedTriangle@getAera(int,int,int):39:(double)(a + b + c) / 2.0 |==> (double)(a + b + c) % 2.0
-127:AOR:/(double,double):*(double,double):lab3.UpgradedTriangle@getAera(int,int,int):39:(double)(a + b + c) / 2.0 |==> (double)(a + b + c) * 2.0
-128:AOR:/(double,double):+(double,double):lab3.UpgradedTriangle@getAera(int,int,int):39:(double)(a + b + c) / 2.0 |==> (double)(a + b + c) + 2.0
-129:AOR:/(double,double):-(double,double):lab3.UpgradedTriangle@getAera(int,int,int):39:(double)(a + b + c) / 2.0 |==> (double)(a + b + c) - 2.0
-130:AOR:-(double,double):%(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p - a |==> p % a
-131:AOR:-(double,double):*(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p - a |==> p * a
-132:AOR:-(double,double):+(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p - a |==> p + a
-133:AOR:-(double,double):/(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p - a |==> p / a
-134:AOR:*(double,double):%(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p * (p - a) |==> p % (p - a)
-135:AOR:*(double,double):+(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p * (p - a) |==> p + (p - a)
-136:AOR:*(double,double):-(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p * (p - a) |==> p - (p - a)
-137:AOR:*(double,double):/(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p * (p - a) |==> p / (p - a)
-138:AOR:-(double,double):%(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p - b |==> p % b
-139:AOR:-(double,double):*(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p - b |==> p * b
-140:AOR:-(double,double):+(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p - b |==> p + b
-141:AOR:-(double,double):/(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p - b |==> p / b
-142:AOR:*(double,double):%(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p * (p - a) * (p - b) |==> p * (p - a) % (p - b)
-143:AOR:*(double,double):+(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p * (p - a) * (p - b) |==> p * (p - a) + (p - b)
-144:AOR:*(double,double):-(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p * (p - a) * (p - b) |==> p * (p - a) - (p - b)
-145:AOR:*(double,double):/(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p * (p - a) * (p - b) |==> p * (p - a) / (p - b)
-146:AOR:-(double,double):%(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p - c |==> p % c
-147:AOR:-(double,double):*(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p - c |==> p * c
-148:AOR:-(double,double):+(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p - c |==> p + c
-149:AOR:-(double,double):/(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p - c |==> p / c
-150:AOR:*(double,double):%(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p * (p - a) * (p - b) * (p - c) |==> p * (p - a) * (p - b) % (p - c)
-151:AOR:*(double,double):+(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p * (p - a) * (p - b) * (p - c) |==> p * (p - a) * (p - b) + (p - c)
-152:AOR:*(double,double):-(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p * (p - a) * (p - b) * (p - c) |==> p * (p - a) * (p - b) - (p - c)
-153:AOR:*(double,double):/(double,double):lab3.UpgradedTriangle@getAera(int,int,int):40:p * (p - a) * (p - b) * (p - c) |==> p * (p - a) * (p - b) / (p - c)
+113:LVR:0:POS:lab3.UpgradedTriangle@getArea(int,int,int):37:0.0 |==> 1.0
+114:LVR:0:NEG:lab3.UpgradedTriangle@getArea(int,int,int):37:0.0 |==> -1.0
+115:STD:<RETURN>:<NO-OP>:lab3.UpgradedTriangle@getArea(int,int,int):37:return 0.0; |==> <NO-OP>
+116:AOR:+(int,int):%(int,int):lab3.UpgradedTriangle@getArea(int,int,int):39:a + b |==> a % b
+117:AOR:+(int,int):*(int,int):lab3.UpgradedTriangle@getArea(int,int,int):39:a + b |==> a * b
+118:AOR:+(int,int):-(int,int):lab3.UpgradedTriangle@getArea(int,int,int):39:a + b |==> a - b
+119:AOR:+(int,int):/(int,int):lab3.UpgradedTriangle@getArea(int,int,int):39:a + b |==> a / b
+120:AOR:+(int,int):%(int,int):lab3.UpgradedTriangle@getArea(int,int,int):39:a + b + c |==> (a + b) % c
+121:AOR:+(int,int):*(int,int):lab3.UpgradedTriangle@getArea(int,int,int):39:a + b + c |==> (a + b) * c
+122:AOR:+(int,int):-(int,int):lab3.UpgradedTriangle@getArea(int,int,int):39:a + b + c |==> a + b - c
+123:AOR:+(int,int):/(int,int):lab3.UpgradedTriangle@getArea(int,int,int):39:a + b + c |==> (a + b) / c
+124:LVR:POS:0:lab3.UpgradedTriangle@getArea(int,int,int):39:2.0 |==> 0.0
+125:LVR:POS:NEG:lab3.UpgradedTriangle@getArea(int,int,int):39:2.0 |==> -2.0
+126:AOR:/(double,double):%(double,double):lab3.UpgradedTriangle@getArea(int,int,int):39:(double)(a + b + c) / 2.0 |==> (double)(a + b + c) % 2.0
+127:AOR:/(double,double):*(double,double):lab3.UpgradedTriangle@getArea(int,int,int):39:(double)(a + b + c) / 2.0 |==> (double)(a + b + c) * 2.0
+128:AOR:/(double,double):+(double,double):lab3.UpgradedTriangle@getArea(int,int,int):39:(double)(a + b + c) / 2.0 |==> (double)(a + b + c) + 2.0
+129:AOR:/(double,double):-(double,double):lab3.UpgradedTriangle@getArea(int,int,int):39:(double)(a + b + c) / 2.0 |==> (double)(a + b + c) - 2.0
+130:AOR:-(double,double):%(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p - a |==> p % a
+131:AOR:-(double,double):*(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p - a |==> p * a
+132:AOR:-(double,double):+(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p - a |==> p + a
+133:AOR:-(double,double):/(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p - a |==> p / a
+134:AOR:*(double,double):%(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p * (p - a) |==> p % (p - a)
+135:AOR:*(double,double):+(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p * (p - a) |==> p + (p - a)
+136:AOR:*(double,double):-(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p * (p - a) |==> p - (p - a)
+137:AOR:*(double,double):/(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p * (p - a) |==> p / (p - a)
+138:AOR:-(double,double):%(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p - b |==> p % b
+139:AOR:-(double,double):*(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p - b |==> p * b
+140:AOR:-(double,double):+(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p - b |==> p + b
+141:AOR:-(double,double):/(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p - b |==> p / b
+142:AOR:*(double,double):%(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p * (p - a) * (p - b) |==> p * (p - a) % (p - b)
+143:AOR:*(double,double):+(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p * (p - a) * (p - b) |==> p * (p - a) + (p - b)
+144:AOR:*(double,double):-(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p * (p - a) * (p - b) |==> p * (p - a) - (p - b)
+145:AOR:*(double,double):/(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p * (p - a) * (p - b) |==> p * (p - a) / (p - b)
+146:AOR:-(double,double):%(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p - c |==> p % c
+147:AOR:-(double,double):*(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p - c |==> p * c
+148:AOR:-(double,double):+(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p - c |==> p + c
+149:AOR:-(double,double):/(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p - c |==> p / c
+150:AOR:*(double,double):%(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p * (p - a) * (p - b) * (p - c) |==> p * (p - a) * (p - b) % (p - c)
+151:AOR:*(double,double):+(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p * (p - a) * (p - b) * (p - c) |==> p * (p - a) * (p - b) + (p - c)
+152:AOR:*(double,double):-(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p * (p - a) * (p - b) * (p - c) |==> p * (p - a) * (p - b) - (p - c)
+153:AOR:*(double,double):/(double,double):lab3.UpgradedTriangle@getArea(int,int,int):40:p * (p - a) * (p - b) * (p - c) |==> p * (p - a) * (p - b) / (p - c)
