@@ -26,6 +26,7 @@ def main():
     assert content == "selenium"
     time.sleep(1)
     driver.quit()
+    print("Task1 Test Success!")
 
 
 if __name__ == "__main__":
